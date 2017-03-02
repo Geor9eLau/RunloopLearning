@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Demo2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>RunloopDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>5ED9F4EB1E67B626002297DF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5ED9F5091E67C3E4002297DF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
