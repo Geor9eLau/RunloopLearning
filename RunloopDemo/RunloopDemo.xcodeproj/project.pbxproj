@@ -19,6 +19,7 @@
 		5ED9F4F91E67B627002297DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9F4F71E67B627002297DF /* Main.storyboard */; };
 		5ED9F4FB1E67B627002297DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9F4FA1E67B627002297DF /* Assets.xcassets */; };
 		5ED9F4FE1E67B627002297DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ED9F4FC1E67B627002297DF /* LaunchScreen.storyboard */; };
+		5ED9F5051E67B948002297DF /* TestThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ED9F5041E67B948002297DF /* TestThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		5ED9F4FA1E67B627002297DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ED9F4FD1E67B627002297DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ED9F4FF1E67B627002297DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ED9F5031E67B948002297DF /* TestThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestThread.h; sourceTree = "<group>"; };
+		5ED9F5041E67B948002297DF /* TestThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				5ED9F4D01E67B5EB002297DF /* RunloopDemo */,
-				5ED9F4ED1E67B627002297DF /* Demo1 */,
+				5ED9F4ED1E67B627002297DF /* 让线程长时间存活 */,
 				5ED9F4CF1E67B5EB002297DF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,19 +107,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5ED9F4ED1E67B627002297DF /* Demo1 */ = {
+		5ED9F4ED1E67B627002297DF /* 让线程长时间存活 */ = {
 			isa = PBXGroup;
 			children = (
 				5ED9F4F11E67B627002297DF /* AppDelegate.h */,
 				5ED9F4F21E67B627002297DF /* AppDelegate.m */,
 				5ED9F4F41E67B627002297DF /* ViewController.h */,
 				5ED9F4F51E67B627002297DF /* ViewController.m */,
+				5ED9F5031E67B948002297DF /* TestThread.h */,
+				5ED9F5041E67B948002297DF /* TestThread.m */,
 				5ED9F4F71E67B627002297DF /* Main.storyboard */,
 				5ED9F4FA1E67B627002297DF /* Assets.xcassets */,
 				5ED9F4FC1E67B627002297DF /* LaunchScreen.storyboard */,
 				5ED9F4FF1E67B627002297DF /* Info.plist */,
 				5ED9F4EE1E67B627002297DF /* Supporting Files */,
 			);
+			name = "让线程长时间存活";
 			path = Demo1;
 			sourceTree = "<group>";
 		};
@@ -244,6 +250,7 @@
 				5ED9F4F61E67B627002297DF /* ViewController.m in Sources */,
 				5ED9F4F31E67B627002297DF /* AppDelegate.m in Sources */,
 				5ED9F4F01E67B627002297DF /* main.m in Sources */,
+				5ED9F5051E67B948002297DF /* TestThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +443,7 @@
 				5ED9F4E71E67B5EC002297DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ED9F5001E67B627002297DF /* Build configuration list for PBXNativeTarget "Demo1" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +452,7 @@
 				5ED9F5021E67B627002297DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
